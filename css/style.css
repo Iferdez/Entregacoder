@@ -1,0 +1,163 @@
+                                        /*   GENERAL */     
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #740207;
+    color: white;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.item {
+    padding: 1rem;
+} 
+
+.item a {
+    text-decoration: none;
+    color: white;
+} 
+.pie{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:500px)
+{
+    .menu {
+        flex-direction: column;
+        background-color: #740200;
+        border-top: black;
+        border-top-style: dashed;
+        
+    }
+}
+
+                                        /*INDEX*/
+.presentacion {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 2rem;
+     
+}
+
+.presentacion img {
+    width: 100%;
+    height: auto;
+}
+
+.texto-gral {
+    color: white;
+    margin:0;
+    padding: 1rem;
+    
+}
+
+.titulos {
+    font-size: 2rem;
+    color: honeydew;
+    font-style: italic;
+    margin: 0;
+    padding: 1rem;
+
+}
+
+                                    /*  PRODUCTOS   */
+ .grilla {
+    display: felx;
+    
+} 
+
+.carousel {
+    max-width: 500px;
+    max-height: 300px;
+    display: flex;
+}
+.carousel-inner {
+    display: flex;
+    align-items: center;
+
+}
+
+.carousel-item  {
+    padding: 3rem;
+    object-fit: contain;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.carousel img {
+
+    height: 100%;
+    width: auto;
+    display: block;
+
+  }
+
+
+
+                                    /*  CONTACTO   */
+
+.formulario {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item-formulario {
+    margin: 1rem;
+}
+
+
+
+  .galeria img {
+    max-width: 100%;
+    height: auto;
+    padding: .5rem;
+    transition: max-width 1s ease-in-out;
+  } 
+
+                                      /*  SERVICIOS   */
+.alquiler {
+    display: flex;
+    flex-direction: row;
+}
+.maquina {
+    display: flex;
+    position: relative;
+    margin: .5rem;
+}
+
+.desc {
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    background-color: rgba(255, 255, 255, 0.335);
+}
