@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../scss/styles.css">
     <link rel="shortcut icon" href="../images/Logo.PNG" type="image/x-icon">
+    <meta name="description" content="No dude en contactarnos que nuestro equipo se pondra en contacto.">
+    <meta name="keywords" content="hierro, ladrillos, obra, acopio, construccion">
 </head>
 <body>
     <header>
@@ -31,7 +33,7 @@
                     <a class="nav-link" href="../pages/nuestras-obras.html">Nuestras Obras</a>
                   </li>
                   <li class="nav-item item">
-                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                    <a class="nav-link active" href="../pages/contacto.html">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -58,12 +60,12 @@
             <textarea name="Consulta" cols="20" rows="1" required placeholder="Consulta" class="item-formulario"></textarea>
          
         </div>
-        <div>
+        <div class="medioscontacto">
             <h4 class="texto-gral">Preferencia de Contacto</h4>
             <input type="checkbox" id="email" value="email"><label for="email" class="texto-gral">Email</label>
             <input type="checkbox" id="telefono" value="telefono"><label for="telefono" class="texto-gral">Telefono</label>
             <input type="checkbox" id="whatsapp" value="whatsapp"><label for="whatsapp" class="texto-gral">Whatsapp</label>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" class="boton">
         </div>
     </form>
     <section>
@@ -73,6 +75,14 @@
             E-Mail: malvinasmateriales.com
         </div>
     </section>
+    <footer class="pie">
+      <ul class="menu">
+          <li><a href="../index.html" class="item">Inicio</a></li>
+          <li><a href="./servicios.html" class="item">Servicios</a></li>
+          <li><a href="./nuestras-obras.html" class="item">Nuestras Obras</a></li>
+          <li><a href="./contacto.html" class="item">Contacto</a></li>
+      </ul>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

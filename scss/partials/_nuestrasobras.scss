@@ -1,0 +1,12 @@
+.galeria img {
+    max-width: 100%;
+    height: auto;
+    padding: .5rem;
+    transition: max-width 1s ease-in-out;
+  } 
+
+.galeria img {
+  -webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation-duration: 2seg;
+} 

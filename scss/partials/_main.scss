@@ -1,0 +1,39 @@
+*{
+    font-family: $fontalegra;
+    background-color: #740207;
+    color: white;
+}
+
+.texto-gral {
+    color: white;
+    margin:0;
+    padding: 1rem;
+    
+}
+
+h2 {
+    font-size: 2rem;
+    color: honeydew;
+    font-style: italic;
+    margin: 0;
+    padding: 1rem;
+
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 2rem;
+     
+   img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.main {
+    background-color: $colorfondo;
+}
