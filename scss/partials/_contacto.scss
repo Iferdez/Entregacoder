@@ -1,3 +1,8 @@
+.mapa { 
+    width: 100%vh;
+    margin-top: 50px;
+}
+
 .formulario {
     display: flex;
     align-items: center;
@@ -14,6 +19,11 @@
 
 }
 
+
+.contacto { 
+    display: flex;
+    justify-content: center;
+}
 .boton {
     background-color: white;
     color: black;

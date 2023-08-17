@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  margin-bottom: 0;
 }
 @keyframes scale-in-ver-center {
   0% {
@@ -165,18 +166,26 @@ h2 {
   color: blue;
 }
 
+.mainservicios {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  margin-bottom: 0;
+}
+
 .alquiler {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
-
-.maquina {
-  display: flex;
+.alquiler .maquina {
   position: relative;
-  margin: 0.5rem;
+  max-height: 300px;
 }
-
-.desc {
+.alquiler .maquina .desc {
   color: black;
   font-size: 1.5rem;
   position: absolute;
@@ -184,8 +193,7 @@ h2 {
   z-index: 0;
   background-color: rgba(255, 255, 255, 0.335);
 }
-
-.desc {
+.alquiler .maquina .desc {
   animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
@@ -201,6 +209,11 @@ h2 {
   animation-duration: 2seg;
 }
 
+.mapa {
+  width: 100% vh;
+  margin-top: 50px;
+}
+
 .formulario {
   display: flex;
   align-items: center;
@@ -212,6 +225,11 @@ h2 {
   border-color: white;
   border-radius: 1rem;
   min-height: 3rem;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
 }
 
 .boton {
@@ -228,4 +246,20 @@ h2 {
 
 .medioscontacto {
   padding-left: 5rem;
+}
+
+@media (max-width: 500px) {
+  .menu {
+    flex-direction: column;
+    background-color: #740404;
+    border-top: black;
+    border-top-style: dashed;
+  }
+  .maquina {
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    margin: 0.5rem;
+    padding: 1rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
