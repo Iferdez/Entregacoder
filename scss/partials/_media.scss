@@ -9,13 +9,19 @@
         
     }
  
-    .maquina {
-        max-width: 100%;
-        display: flex;
-        position: relative;
-        margin: .5rem;
-        padding: 1rem;
+.maquina {
 
-        
+    padding: 0rem;
+
+}
+}
+
+@media (max-width: 422px) 
+{
+    .maquina img {
+     max-width: 100%;;
+      padding: 0rem;
+
+  
     }
 }
